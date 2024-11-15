@@ -3,14 +3,13 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-//        int n = 24;
+//        int n = 55;
 //        double sum = 0;
 //        for (int i = 1; i <= n; i++) {
 //            sum += i;
 //        }
 //        double average = sum / n;
 //        System.out.println(n + "-ის საშუალო არითმეტიკულია: " + average);
-
 
 
 
@@ -37,6 +36,26 @@ public class Main {
 //            }
 //            System.out.println(i);
 //        }
+
+
+
+
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        int binaryNum = scanner.nextInt();
+//        int decimalNum = 0;
+//        int multiplayer = 1;
+//
+//        while (binaryNum > 0) {
+//            int lastDigit = binaryNum % 10;
+//
+//            decimalNum += lastDigit * multiplayer;
+//            binaryNum /= 10;
+//            multiplayer *= 2;
+//        }
+//        System.out.println(decimalNum);
+
 
 
 
