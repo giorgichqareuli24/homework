@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface ChristmasCelebrator {
+    void celebrateChristmas();
+    void hostChristmasParty();
 }
