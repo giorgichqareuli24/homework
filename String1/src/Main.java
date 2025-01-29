@@ -5,16 +5,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 //        1 ნომერი
-//        System.out.println("შეიყვანეთ სტრიქონი ციფრების დასათვლელად:");
-//        String input = scanner.nextLine();
-//
-//        int digitCount = 0;
-//        for (char c : input.toCharArray()) {
-//            if (Character.isDigit(c)) {
-//                digitCount++;
-//            }
-//        }
-//        System.out.println("სტრიქონში ციფრების რაოდენობა: " + digitCount);
+        System.out.println("შეიყვანეთ სტრიქონი ციფრების დასათვლელად:");
+        String input = scanner.nextLine();
+
+        int digitCount = 0;
+        for (char c : input.toCharArray()) {
+            if (Character.isDigit(c)) {
+                digitCount++;
+            }
+        }
+        System.out.println("სტრიქონში ციფრების რაოდენობა: " + digitCount);
 
 
 //        2 ნომერი
@@ -29,7 +29,7 @@ public class Main {
 //                sentenceCount++;
 //            }
 //        }
-//
+
 //        System.out.println("სტრიქონში წინადადებების რაოდენობა: " + sentenceCount);
 
 
