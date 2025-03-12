@@ -7,16 +7,16 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 //        1 სავარჯიშო
-//        String[] words = {"Mercedes", "Opel", "BMW", "Mercedes", "Opel", "Skoda"};
-//        HashMap<String, Integer> wordCount = new HashMap<>();
-//
-//        for (String word : words) {
-//            wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
-//        }
-//
-//        for (String key : wordCount.keySet()) {
-//            System.out.println(key + " - " + wordCount.get(key));
-//        }
+        String[] words = {"Mercedes", "Opel", "BMW", "Mercedes", "Opel", "Skoda"};
+        HashMap<String, Integer> wordCount = new HashMap<>();
+
+        for (String word : words) {
+            wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
+        }
+
+        for (String key : wordCount.keySet()) {
+            System.out.println(key + " - " + wordCount.get(key));
+        }
 
 
 
