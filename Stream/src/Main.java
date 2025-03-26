@@ -5,8 +5,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
 //        1 სავარჯიშო
-//        List<Integer> numbers = Arrays.asList(3, 5, 10, 15, 20, 8, 25, 30);
-//
+        List<Integer> numbers = Arrays.asList(3, 5, 10, 15, 20, 8, 25, 30);
 //        int sum = numbers.stream()
 //                .filter(n -> n >= 10)
 //                .map(n -> n * n)
