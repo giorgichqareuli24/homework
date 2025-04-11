@@ -22,7 +22,6 @@ public class Main extends Application {
 //        Scene scene = new Scene(root, 400, 200);
 //
 //        stage.getIcons().add(new Image("file:icon.png"));
-//
 //        stage.setTitle("ჩემი აპლიკაცია");
 //        stage.setScene(scene);
 //        stage.setResizable(false);
@@ -78,27 +77,27 @@ public class Main extends Application {
 
 
 //        3 savarjisho
-//        Pane root = new Pane();
-//
-//        Circle face = new Circle(250, 200, 100);
-//        face.setFill(Color.YELLOW);
-//
-//        Circle leftEye = new Circle(210, 170, 20);
-//        Circle rightEye = new Circle(290, 170, 20);
-//        leftEye.setFill(Color.BLACK);
-//        rightEye.setFill(Color.BLACK);
-//
-//        Circle mouth = new Circle(250, 250, 50);
-//        mouth.setFill(Color.TRANSPARENT);
-//        mouth.setStroke(Color.BLACK);
-//        mouth.setStrokeWidth(5);
-//
-//        root.getChildren().addAll(face, leftEye, rightEye, mouth);
-//
-//        Scene scene = new Scene(root, 500, 400);
-//        stage.setTitle("სმაილი");
-//        stage.setScene(scene);
-//        stage.show();
+        Pane root = new Pane();
+
+        Circle face = new Circle(250, 200, 100);
+        face.setFill(Color.YELLOW);
+
+        Circle leftEye = new Circle(210, 170, 20);
+        Circle rightEye = new Circle(290, 170, 20);
+        leftEye.setFill(Color.BLACK);
+        rightEye.setFill(Color.BLACK);
+
+        Circle mouth = new Circle(250, 250, 50);
+        mouth.setFill(Color.TRANSPARENT);
+        mouth.setStroke(Color.BLACK);
+        mouth.setStrokeWidth(5);
+
+        root.getChildren().addAll(face, leftEye, rightEye, mouth);
+
+        Scene scene = new Scene(root, 500, 400);
+        stage.setTitle("სმაილი");
+        stage.setScene(scene);
+        stage.show();
     }
 }
 
